@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 /* jshint node:true */
+=======
+>>>>>>> de89ee7... message
 'use strict';
 
 var path = require('path');
