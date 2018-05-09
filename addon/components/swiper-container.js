@@ -1,9 +1,12 @@
 /* globals Swiper */
 
-import Ember from 'ember';
-import layout from '../templates/components/swiper-container';
+import Component from '@ember/component';
 
-const { Component, computed, observer, on, run, $ } = Ember;
+import { observer, computed } from '@ember/object';
+import { on } from '@ember/object/evented';
+import { run } from '@ember/runloop';
+import $ from 'jquery';
+import layout from '../templates/components/swiper-container';
 
 const swiperParameters = [
   // Keyboard / Mousewheel
